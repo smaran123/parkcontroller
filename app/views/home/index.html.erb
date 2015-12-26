@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<!--[if IE 8]>      <html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>      <html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->  <html> <!--<![endif]-->
+  <head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <title>PCC Park Controller</title>    
+    <meta name="keywords" content="PCC PARK Controller" />
+    <meta name="description" content="PCC PARK CONTROLS and communication pvt lmt">
+    <meta name="author" content="okler.net">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css" media="screen">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css" media="screen">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+    <link rel="stylesheet" href="vendor/isotope/jquery.isotope.css" media="screen">
+    <link rel="stylesheet" href="vendor/mediaelement/mediaelementplayer.css" media="screen">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/theme-blog.css">
+    <link rel="stylesheet" href="css/theme-shop.css">
+    <link rel="stylesheet" href="css/theme-animate.css">
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/theme-responsive.css" />
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skins/default.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr.js"></script>
+
+    <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+      <script src="vendor/respond.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div class="body">
+      <header id="header">
+        <div class="container">
+          <h1 class="logo">
+            <a href="/">
+              <img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" src="/assets/img/logo.png">
+            </a>
+          </h1>
+          <nav>
+            <ul class="nav nav-pills nav-top">
+              <li class="phone">
+                <span><i class="icon icon-phone"></i>+91-80-2529 2513</span>
+              </li>
+              <li class="phone">
+                <span><i class="icon icon-envelope"></i>info@parkcontrols.com</span>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+            <i class="icon icon-bars"></i>
+          </button>
+        </div>
+        <div class="navbar-collapse nav-main-collapse collapse">
+          <div class="container">
+            <ul class="social-icons">
+              <li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
+              <li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
+              <li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin">Linkedin</a></li>
+            </ul>
+            <nav class="nav-main mega-menu">
+              <ul class="nav nav-pills nav-main" id="mainMenu">
+                <li>
+                  <a href="/home/about">
+                    About Us
+                    <!-- <i class="icon icon-angle-down"></i> -->
+                  </a>
+                  <!-- <ul class="dropdown-menu">
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="about-us-basic.html">About Us - Basic</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                  </ul> -->
+                </li>
+                <li class="dropdown mega-menu-item mega-menu-fullwidth">
+                  <a class="dropdown-toggle" href="#">
+                    Products
+                    <i class="icon icon-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="mega-menu-content">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <ul class="sub-menu">
+                              <li>
+                                <span class="mega-menu-sub-title">RF</span>
+                                <ul class="sub-menu">
+                                  <li><a href="sdr.html">SDR based Transmitters</a></li>
+                                  <li><a href="feature-icons.html">Power Amplifiers</a></li>
+                                  <li><a href="ampli.html">Power Dividers</a></li>
+                                  <li><a href="combiner.html">Combiners</a></li>
+                                  <li><a href="low.html">Low Noise Amplifiers</a></li>
+                                  <li><a href="down.html">Down Convertors</a></li>
+                                  <li><a href="modulator.html">Modulators</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <ul class="sub-menu">
+                              <li>
+                                <span class="mega-menu-sub-title">Telemetry</span>
+                                <ul class="sub-menu">
+                                  <li><a href="airbone.html">Airborne/MIL Ruggedized Instrumentation Systems</a></li>
+                                  <li><a href="pcm.html">PCM Encoders</a></li>
+                                  <li><a href="antenna.html">Antenna Systems (up to 3 mts.)</a></li>
+                                  <li><a href="receiver.html">Telemetry Receivers</a></li>
+                                  <li><a href="bit.html">Bit Synchronizers</a></li>
+                                  <li><a href="document.html">Decommutators</a></li>
+                                  <li><a href="software.html">Telemetry Application Software</a></li>
+                                  <li><a href="video.html">Video decoders</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <ul class="sub-menu">
+                              <li>
+                                <span class="mega-menu-sub-title">Timing</span>
+                                <ul class="sub-menu">
+                                  <li><a href="/home/system/">Time Reference Systems</a></li>
+                                  <li><a href="/home/generator/">Time Code Generators</a></li>
+                                  <li><a href="/home/reader/">Time Code Readers</a></li>
+                                  <li><a href="/home/display/">Time Displays</a></li>
+                                  <li><a href="/home/inserter/">Video Time Inserters</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-3">
+                            <ul class="sub-menu">
+                              <li>
+                                <span class="mega-menu-sub-title">Controls</span>
+                                <ul class="sub-menu">
+                                  <li><a href="/power_control">Power Control Units</a></li>
+                                  <li><a href="/engine_control">Engine Control Units</a></li>
+                                  <li><a href="/generator_control">Generator Control Units</a></li>
+                                  <li><a href="/antenna_control">Antenna Control Units</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                           <div class="col-md-3">
+                            <ul class="sub-menu">
+                              <li>
+                                <span class="mega-menu-sub-title">Others</span>
+                                <ul class="sub-menu">
+                                  <li><a href="/home/unit">Airborne Engine Interface Unit</a></li>
+                                  <li><a href="/home/recorder">Airborne Digital Video Recorder</a></li>
+                                  <li><a href="/home/loader">Air Data Loaders</a></li>
+                                  <li><a href="/home/mil">MIL 1553 boards</a></li>
+                                  <li><a href="/home/board">ARINC boards</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        
+                        
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/home/service">
+                    Services
+                    <!-- <i class="icon icon-angle-down"></i> -->
+                  </a>
+                  <!-- <ul class="dropdown-menu">
+                    <li><a href="portfolio-4-columns.html">4 Columns</a></li>
+                    <li><a href="portfolio-3-columns.html">3 Columns</a></li>
+                    <li><a href="portfolio-2-columns.html">2 Columns</a></li>
+                    <li><a href="portfolio-lightbox.html">Portfolio Lightbox</a></li>
+                    <li><a href="portfolio-timeline.html">Portfolio Timeline</a></li>
+                    <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
+                    <li><a href="portfolio-single-project.html">Single Project</a></li>
+                  </ul> -->
+                </li>
+                <li>
+                  <a href="/home/client">
+                    Clients
+                    <!-- <i class="icon icon-angle-down"></i> -->
+                  </a>
+                            <!--  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a href="#">Shop</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="shop-full-width.html">Shop - Full Width</a></li>
+                        <li><a href="shop-sidebar.html">Shop - Sidebar</a></li>
+                        <li><a href="shop-product-full-width.html">Shop - Product Full Width</a></li>
+                        <li><a href="shop-product-sidebar.html">Shop - Product Sidebar</a></li>
+                        <li><a href="shop-cart.html">Shop - Cart</a></li>
+                        <li><a href="shop-login.html">Shop - Login</a></li>
+                        <li><a href="shop-checkout.html">Shop - Checkout</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="page-full-width.html">Full width</a></li>
+                    <li><a href="page-left-sidebar.html">Left sidebar</a></li>
+                    <li><a href="page-right-sidebar.html">Right sidebar</a></li>
+                    <li><a href="page-custom-header.html">Custom Header</a></li>
+                    <li><a href="page-404.html">404 Error</a></li>
+                    <li><a href="page-team.html">Team</a></li>
+                    <li><a href="page-services.html">Services</a></li>
+                    <li><a href="page-careers.html">Careers</a></li>
+                    <li><a href="page-faq.html">FAQ</a></li>
+                    <li><a href="page-login.html">Login / Register</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                  </ul> -->
+                </li>
+                <li><a href="/home//partner">Tech-Partner</a></li>
+                <li>
+                  <a  href="/home/contact">
+                    Contact Us
+                    <!-- <i class="icon icon-angle-down"></i> -->
+                  </a>
+                  <!-- <ul class="dropdown-menu">
+                    <li><a href="contact-us.html">Contact Us - Basic</a></li>
+                    <li><a href="contact-us-advanced.php">Contact Us - Advanced</a></li>
+                  </ul> -->
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div role="main" class="main">
+        <div class="slider-div">
+          
+        </div>
+        <div class="home-intro">
+          <div class="container">
+            <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+               <div class="img-1">
+               <a data-toggle="tab" href="#sectionA"><img src="/assets/img/p3.png"></a>
+             </div><!---img-1--->
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                 
+               <div class="img-2">
+                <a data-toggle="tab" href="#sectionB"><img src="/assets/img/p2.png"></a>
+             </div><!---img-2--->
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+               <div class="img-3">
+               <a data-toggle="tab" href="#sectionC">
+             <img src="/assets/img/p.png"></a>
+             </div><!---img-3--->
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+               <div class="img-4">
+                <a data-toggle="tab" href="#sectionD">
+              <img src="/assets/img/p5.png"></a>
+             </div><!---img-4--->
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+          
+               <div class="img-5">
+               <a data-toggle="tab" href="#sectionE"> 
+             <img src="/assets/img/p6.png"></a>
+             </div><!---img-5--->
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+            
+               <div class="img-6">
+                <a data-toggle="tab" href="#sectionF"><img src="/assets/img/p7.png"></a>
+             </div><!---img---->
+          </div>
+        </div>
+        
+          </div>
+        </div><!--home-intro--->
+        
+        <div class="container">
+        
+          <div class="row center">
+            <div class="col-md-12">
+              <h2 class="short word-rotator-title">
+                WELCOME TO
+                <strong class="inverted">
+                  <span class="word-rotate">
+                    <span class="word-rotate-items">
+                      <span>PARK CONTROLS</span>
+                    </span>
+                  </span>
+                </strong>
+                
+              </h2>
+              <p class="featured lead para-text">
+                <strong>Park Controls & Communications Ltd.</strong>, is two decades old, established in 1989 by technocrats with strong technical background and in-depth domain 
+              </p>
+              <p class="featured lead">
+                knowledge of core technologies. The company services technology intensive requirements of clients within the Defense and Aerospace domains. 
+              </p>
+              <p class="featured lead">
+                The company caters to customized and exclusive requirements in the Defense, Space and Aerospace domains with End to End Data Acquisition Solutions for
+                </p>
+                <p class="featured lead">
+                Airborne and Ground based Applications particularly specializing in PCM Telemetry, Timing and Control products and design services.
+                </p>
+                <p class="featured lead">
+                    Park Controls & Communications Ltd., also specializes in extending services customized Automated Test Equipments (ATE) within the Avionics domain 
+                </p>
+                <p class="featured lead">
+                     irrespective of the nature of the tests. The tests could pertain to Navigation, EW, Radar, Display, Communications, Engines, etc. The company is proud to have
+                </p>
+                <p class="featured lead">
+                   associated with numerous efforts in upgrading Legacy Test Benches providing improved features and life extensions for more than 10 years. Complex 
+                </p>
+                <p class="featured lead">designs of New Test Benches have also been realized very successfully.</p>
+                <p class="featured lead">Park Controls & Communications Ltd., has the unique ability to design and develop complete systems on turnkey basis including hardware and software righ</p>
+                <p class="featured lead">from chip level ground up to complete systems including firmware, device drivers, system level Application Software, etc.</p>
+                <p class="featured lead">Park Controls & Communications Ltd., is a recognized vendor to handle Defence Offset related projects. The company is ready to undertake projects that </p>
+                <p class="featured lead">would help MNCs/OEMs to acquire offset credits through successful execution of projects.</p>
+                <p class="featured lead">Park Controls & Communications Ltd., is proud of their <span style="color:#0088cc;font-weight: bolder;">Mission Statement</span></p>
+                <p class="featured lead" id="text-global">"To become globally competitive and professionally managed business enterprise providing Defense and Aerospace solutions and End to End data </p>
+                <p class="featured lead" id="text-global">acquisition applications of supreme quality in a dynamic and growth oriented world market".</p>
+            </div>
+          </div>
+        
+        </div>
+        
+        <div class="home-concept">
+          <div class="container">
+            <div class="row center">
+              <div class="iso-box-shadow">
+                  <img src="/assets/img/line copy.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="container">
+        
+          <div class="row">
+            <div class="col-md-8">
+              <h2>Our <strong>Products...</strong></h2>
+              <div class="row">
+                <div class="col-md-12">
+                   <div class="pull-right our-prev-img">
+                    <img src="/assets/img/prev.png"/>
+                 </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                   <div class="obdas">
+                     <span>PARK OBDAS-1000  Onboard Data Acquisition System<span>
+                        </span></span>
+                  </div>
+                  <div class="module-div-01">
+                    <div class="row">
+                    <div class="col-md-8">
+                      <p class="lead lead-01">
+                      A completely modular, high performance, 
+                      easily configurable, economic solution catering data 
+                      acquisition needs of aerospace sector. Supports Analog 
+                      inputs from all kinds sensors pertaining to Single ended voltages,
+                      Differential voltages, Strain Gauges, PT 100 and Thermistor Temperature 
+                      Sensors, Thermocouples, LVDT, RVDT, Synchro, Resolver Sensors, etc.,
+                      and also MIL 1553, ARINC 429, Video/Voice Modules, etc.
+                    </p>
+                    </div>
+                     <div class="col-md-4">
+                        <p class="lead lead-img-01">
+                        <img class="img-responsive appear-animation fadeInDownBig appear-animation-visible" src="img/p3.png" data-appear-animation="fadeInDownBig">
+                      </p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p class="lead lead-anchor">
+                        <a href="view.html">View Detail</a>
+                      </p>
+                     </div>
+                  
+                  </div>
+                  </div><!--module-div-01-->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h2 class="news-heading">NEWS & EVENTS...</h2>
+        
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        <i class="icon  icon-bell"></i>
+                        Nulla porta posuere faucibus morbi
+                      </a>
+                      <span class="tab-pad">April 19th,2015</span>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="accordion-body collapse in">
+                    <div class="panel-body">
+                       <p>
+                      Donec tellus massa, tristique sit amet condimentum vel, 
+                      facilisis quis sapien. Praesent id enim sit amet odio 
+                      vulputate eleifend in in tortor odio vulputate eleifend 
+                      in in tortorodio vulputate eleifend in in tortor
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                        <i class="icon icon-bell"></i>
+                        Morbi quam arcu, sagittis sit
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="accordion-body collapse">
+                    <div class="panel-body">
+                        <p>
+                      Donec tellus massa, tristique sit amet condimentum vel, 
+                      facilisis quis sapien. Praesent id enim sit amet odio 
+                      vulputate eleifend in in tortor odio vulputate eleifend 
+                      in in tortorodio vulputate eleifend in in tortor
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                        <i class="icon icon-bell"></i>
+                        Morbi quam arcu, sagittis sit
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="accordion-body collapse">
+                    <div class="panel-body">
+                       <p>
+                      Donec tellus massa, tristique sit amet condimentum vel, 
+                      facilisis quis sapien. Praesent id enim sit amet odio 
+                      vulputate eleifend in in tortor odio vulputate eleifend 
+                      in in tortorodio vulputate eleifend in in tortor
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <hr class="tall" />
+        
+          <div class="row center">
+            <div class="col-md-12">
+              <h2 class="short word-rotator-title">
+                Specialists In
+                <strong>
+                  <span class="word-rotate">
+                    <span class="word-rotate-items">
+                      <span>Defence and Aerospace...</span>
+                      <!-- <span>happy</span> -->
+                    </span>
+                  </span>
+                </strong>
+                <!-- about Porto Template... -->
+              </h2>
+              <h4 class="lead tall">The company has successfully met with every customer’s specific requirements Meet our customers.</h4>
+            </div>
+          </div>
+          <div class="row center">
+            <div class="owl-carousel" data-plugin-options='{"items":6, "singleItem": false, "autoPlay": true}'>
+              <div>
+                <img class="img-responsive" src="/assets/img/logos/s1.png" alt="">
+              </div>
+              <div>
+                <img class="img-responsive" src="/assets/img/logos/s2.png" alt="">
+              </div>
+              <div>
+                <img class="img-responsive" style="width:159px;height:45px;" src="/assets/img/logos/s3.png" alt="">
+              </div>
+              <div>
+                <img class="img-responsive" style="width:159px;height:45px;" src="/assets/img/logos/s4.png" alt="">
+              </div>
+              <div>
+                <img class="img-responsive" style="width:159px;height:45px;" src="/assets/img/logos/s5.png" height="50" alt="">
+              </div>
+              <div>
+                <img class="img-responsive" src="/assets/img/logos/s1.png" height="50" alt="">
+              </div>
+              <div>
+                <img class="img-responsive" src="/assets/img/logos/s2.png" height="50" alt="">
+              </div>
+              <div>
+                <img class="img-responsive" style="width:159px;height:45px;" src="/assets/img/logos/s3.png" height="50" alt="">
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        
+        <div class="map-section">
+          
+        </div>
+      </div>
+ 
+      <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-ribbon">
+              <span>Visitors Count "10,000"</span>
+            </div>
+            <div class="col-md-4">
+              <div class="newsletter">
+                <h4>Search</h4>
+                <p>
+                Search our database to find
+                information about any products and
+                documents of Park Controls and
+                and Communications..
+                                 </p>
+      
+                <div class="alert alert-success hidden" id="newsletterSuccess">
+                  <strong>Success!</strong> You've been added to our email list.
+                </div>
+      
+                <div class="alert alert-danger hidden" id="newsletterError"></div>
+      
+                <form id="newsletterForm" action="#" method="POST">
+                   <div class="search-text-heading-arrow"><img src="/assets/img/down-arrow.png"></div>
+                  <select id="select">
+                    <option value="0">--Selects--</option>
+                    <option value="1">Product-1</option>
+                    <option value="2">Product-2</option>
+                     <option value="3">Product-3</option>
+                     <option value="4">Product-4</option>
+                     <option value="5">Product-5</option>
+                      <option value="3">Product-6</option>
+                     <option value="4">Product-7</option>
+                     <option value="5">Product-8</option>
+                   </select>
+                </form>
+              </div>
+            </div>
+            <!-- <div class="col-md-3">
+               <h4>Latest Tweet</h4>
+              <div id="tweet" class="twitter" data-account-id="">
+                <p>Please wait...</p>
+              </div>
+            </div> -->
+            <div class="col-md-4">
+              <div class="contact-details">
+                <h4>Contact Us</h4>
+                <ul class="contact">
+                  <li><p><i class="icon icon-map-marker"></i> <strong style="color:#0188cc;">Address:</strong>
+                    Park Controls & Communication Ltd<br>
+                    <span>#22, 80 Feet Road</span>
+                    <br>
+                     &nbsp;&nbsp;&nbsp;<span class="contact-span">HAL III Stage</span>
+                    <br>
+                    <span class="contact-span-01">Bangalore-560075, India</span>
+                                     </p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h4 style="visibility:hidden;">Contact Us</h4>
+                <ul class="contact">
+                  <li><p><i class="icon icon-phone"></i> <strong>Phone:</strong> +91-80-2529 2513 / 2529 7199 / 2529 3482</p></li>
+                  <li><p><i class="icon icon-hdd-o"></i> <strong>Fax:</strong>91-80-2528 1716</p></li>
+                  <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:info@parkcontrols.com" style="color:#cccf8c !important;text-decoration:underline;">info@parkcontrols.com</a></p></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <p>© 2009.All Rights Reserved.&nbsp;<a href="http://www.parkcontrols.com" target="_blank">www.parkcontrols.com</a></p>
+              </div>
+              <div class="col-md-8">
+                <nav id="sub-menu">
+                  <ul>
+                    <li><a href="career.html">Careers</a></li>
+                    <li><a href="partner.html">partnership</a></li>
+                    <li><a href="faq.html">FAQ’s</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+        
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">PARK OBDAS-1000 Onboard Data Acquisition System</h4>
+                </div>
+                <div class="modal-body">
+               <p class="lead">
+                <select class="select-01" id="select-modal" >
+                <option value="0">--Selects--</option>
+                    <option value="1">Product-1</option>
+                    <option value="2">Product-2</option>
+                     <option value="3">Product-3</option>
+                     <option value="4">Product-4</option>
+                     <option value="5">Product-5</option>
+                      <option value="3">Product-6</option>
+                     <option value="4">Product-7</option>
+                     <option value="5">Product-8</option>
+              </select>
+             </p>
+               <p class="lead"> 
+              A completely modular, high performance, easily configurable,
+              economic solution catering
+              data acquisition needs of aerospace sector. Supports Analog inputs 
+              from all kinds sensors pertaining to Single ended voltages,
+              Differential voltages, Strain Gauges, 
+              PT 100 and Thermistor Temperature Sensors, 
+              Thermocouples, LVDT, RVDT, Synchro, 
+              Resolver Sensors, etc., and also MIL 1553,
+              ARINC 429, Video/Voice Modules, etc..
+            </p>
+            <p class="lead">
+              <!-- <img src="img/p3.png" height="121" width="121"> -->
+              <img class="img-responsive appear-animation fadeInDownBig appear-animation-visible p3-image" src="/assets/img/p3.png" height="121" width="121" data-appear-animation="fadeInDownBig">
+              <button type="button" class="btn btn-primary button-modal">DownLoad</button>
+            </p>
+                   
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Modal HTML img-2 -->
+    <div id="img-2" class="modal fade">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">PARK OBDAS-1000 Onboard Data Acquisition System</h4>
+                </div>
+                <div class="modal-body">
+               <p class="lead">
+                <select id="select-modal">
+                <option value="0">--Selects--</option>
+                    <option value="1">Product-1</option>
+                    <option value="2">Product-2</option>
+                     <option value="3">Product-3</option>
+                     <option value="4">Product-4</option>
+                     <option value="5">Product-5</option>
+                      <option value="3">Product-6</option>
+                     <option value="4">Product-7</option>
+                     <option value="5">Product-8</option>
+              </select>
+             </p>
+               <p class="lead"> 
+              A completely modular, high performance, easily configurable,
+              economic solution catering
+              data acquisition needs of aerospace sector. Supports Analog inputs 
+              from all kinds sensors pertaining to Single ended voltages,
+              Differential voltages, Strain Gauges, 
+              PT 100 and Thermistor Temperature Sensors, 
+              Thermocouples, LVDT, RVDT, Synchro, 
+              Resolver Sensors, etc., and also MIL 1553,
+              ARINC 429, Video/Voice Modules, etc..
+            </p>
+            <p class="lead">
+               <img id="p21-img" class="img-responsive appear-animation fadeInDownBig appear-animation-visible" src="img/p21.png" height="121" width="121" data-appear-animation="fadeInDownBig">
+              <button type="button" class="btn btn-primary button-modal">DownLoad</button>
+            </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Modal HTML img-3 -->
+    <div id="img-3" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">PARK OBDAS-1000 Onboard Data Acquisition System</h4>
+                </div>
+                <div class="modal-body">
+               <p class="lead">
+                <select id="select-modal">
+                <option value="0">--Selects--</option>
+                    <option value="1">Product-1</option>
+                    <option value="2">Product-2</option>
+                     <option value="3">Product-3</option>
+                     <option value="4">Product-4</option>
+                     <option value="5">Product-5</option>
+                      <option value="3">Product-6</option>
+                     <option value="4">Product-7</option>
+                     <option value="5">Product-8</option>
+              </select>
+             </p>
+               <p class="lead"> 
+              A completely modular, high performance, easily configurable,
+              economic solution catering
+              data acquisition needs of aerospace sector. Supports Analog inputs 
+              from all kinds sensors pertaining to Single ended voltages,
+              Differential voltages, Strain Gauges, 
+              PT 100 and Thermistor Temperature Sensors, 
+              Thermocouples, LVDT, RVDT, Synchro, 
+              Resolver Sensors, etc., and also MIL 1553,
+              ARINC 429, Video/Voice Modules, etc..
+            </p>
+            <p class="lead">
+              <img class="img-responsive appear-animation fadeInDownBig appear-animation-visible" src="/assets/img/p31.png" height="121" width="121" data-appear-animation="fadeInDownBig">
+              <button type="button" class="btn btn-primary button-modal">DownLoad</button>
+            </p>
+                   
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Modal HTML img-4 -->
+    <div id="img-4" class="modal fade">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">PARK OBDAS-1000 Onboard Data Acquisition System</h4>
+                </div>
+                <div class="modal-body">
+               <p class="lead">
+                <select id="select-modal">
+                <option value="0">--Selects--</option>
+                    <option value="1">Product-1</option>
+                    <option value="2">Product-2</option>
+                     <option value="3">Product-3</option>
+                     <option value="4">Product-4</option>
+                     <option value="5">Product-5</option>
+                      <option value="3">Product-6</option>
+                     <option value="4">Product-7</option>
+                     <option value="5">Product-8</option>
+              </select>
+             </p>
+               <p class="lead"> 
+              A completely modular, high performance, easily configurable,
+              economic solution catering
+              data acquisition needs of aerospace sector. Supports Analog inputs 
+              from all kinds sensors pertaining to Single ended voltages,
+              Differential voltages, Strain Gauges, 
+              PT 100 and Thermistor Temperature Sensors, 
+              Thermocouples, LVDT, RVDT, Synchro, 
+              Resolver Sensors, etc., and also MIL 1553,
+              ARINC 429, Video/Voice Modules, etc..
+            </p>
+            <p class="lead">
+               <img class="img-responsive appear-animation fadeInDownBig appear-animation-visible" src="/assets/img/p41.png" height="121" width="121" data-appear-animation="fadeInDownBig">
+              <button type="button" class="btn btn-primary button-modal">DownLoad</button>
+            </p>
+                   
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Modal HTML img-5 -->
+    <div id="img-5" class="modal fade">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">PARK OBDAS-1000 Onboard Data Acquisition System</h4>
+                </div>
+                <div class="modal-body">
+               <p class="lead">
+                <select id="select-modal">
+                <option value="0">--Selects--</option>
+                    <option value="1">Product-1</option>
+                    <option value="2">Product-2</option>
+                     <option value="3">Product-3</option>
+                     <option value="4">Product-4</option>
+                     <option value="5">Product-5</option>
+                      <option value="3">Product-6</option>
+                     <option value="4">Product-7</option>
+                     <option value="5">Product-8</option>
+              </select>
+             </p>
+               <p class="lead"> 
+              A completely modular, high performance, easily configurable,
+              economic solution catering
+              data acquisition needs of aerospace sector. Supports Analog inputs 
+              from all kinds sensors pertaining to Single ended voltages,
+              Differential voltages, Strain Gauges, 
+              PT 100 and Thermistor Temperature Sensors, 
+              Thermocouples, LVDT, RVDT, Synchro, 
+              Resolver Sensors, etc., and also MIL 1553,
+              ARINC 429, Video/Voice Modules, etc..
+            </p>
+            <p class="lead">
+               <img class="img-responsive appear-animation fadeInDownBig appear-animation-visible" src="/assets/img/p51.png" height="121" width="121" data-appear-animation="fadeInDownBig">
+              <button type="button" class="btn btn-primary button-modal">DownLoad</button>
+            </p>
+                   
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+          <!-- Modal HTML img-6 -->
+    <div id="img-6" class="modal fade">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">PARK OBDAS-1000 Onboard Data Acquisition System</h4>
+                </div>
+                <div class="modal-body">
+               <p class="lead">
+                <select id="select-modal">
+                      <option value="0">--Selects--</option>
+                    <option value="1">Product-1</option>
+                    <option value="2">Product-2</option>
+                     <option value="3">Product-3</option>
+                     <option value="4">Product-4</option>
+                     <option value="5">Product-5</option>
+                      <option value="3">Product-6</option>
+                     <option value="4">Product-7</option>
+                     <option value="5">Product-8</option>
+              </select>
+             </p>
+               <p class="lead"> 
+              A completely modular, high performance, easily configurable,
+              economic solution catering
+              data acquisition needs of aerospace sector. Supports Analog inputs 
+              from all kinds sensors pertaining to Single ended voltages,
+              Differential voltages, Strain Gauges, 
+              PT 100 and Thermistor Temperature Sensors, 
+              Thermocouples, LVDT, RVDT, Synchro, 
+              Resolver Sensors, etc., and also MIL 1553,
+              ARINC 429, Video/Voice Modules, etc..
+            </p>
+            <p class="lead">
+               <img class="img-responsive appear-animation fadeInDownBig appear-animation-visible" src="/assets/img/p61.png" height="121" width="121" data-appear-animation="fadeInDownBig">
+              <button type="button" class="btn btn-primary button-modal">DownLoad</button>
+            </p>
+                   
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    </div>
+
+    <!-- Libs -->
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/jquery.appear.js"></script>
+    <script src="vendor/jquery.easing.js"></script>
+    <script src="vendor/jquery.cookie.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/jquery.validate.js"></script>
+    <script src="vendor/jquery.stellar.js"></script>
+    <script src="vendor/jquery.knob.js"></script>
+    <script src="vendor/jquery.gmap.js"></script>
+    <script src="vendor/twitterjs/twitter.js"></script>
+    <script src="vendor/isotope/jquery.isotope.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="vendor/jflickrfeed/jflickrfeed.js"></script>
+    <script src="vendor/magnific-popup/magnific-popup.js"></script>
+    <script src="vendor/mediaelement/mediaelement-and-player.js"></script>
+    
+    <!-- Theme Initializer -->
+    <script src="js/theme.plugins.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/custom.js"></script>
+    
+    <!-- Current Page JS -->
+    <script src="vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.js"></script>
+    <script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+    <script src="js/views/view.home.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+    <script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-12345678-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+     -->
+
+  </body>
+</html>
