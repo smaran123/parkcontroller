@@ -1,7 +1,6 @@
 class HomeController < ApplicationController
+
   def index
-  end
-def index
   end
 
   def about
@@ -27,92 +26,109 @@ def index
   
   def career
   end
- 
+
   def client
   end
   
   def combiner
   end
- 
+
   def contact
-  end
- 
-  def display
-  end
- 
-  def document
-  end
-  
-  def down
-  end
- 
-  def engine_control
-  end
-  
-  def faq
-  end
-  
-  def feature_icons
-  end
- 
-  def generator
-  end
- 
-  def generator_control
-  end
- 
-  def inserter
-  end
- 
-  def loader
-  end
- 
-  def low
+    @contact = Contact.new
   end
 
-  def mil
-  end
+  def post_contact
+   @contact = Contact.new(contact_params)
+   if @contact.save
+     redirect_to "/"
+   else
+     render :contact
+   end
+ end
 
-  def modulator
-  end
-  
-  def partner
-  end
-  
-  def pcm
-  end
-  
-  def power_control
-  end
- 
-  def privacy
-  end
+ def display
+ end
 
-  def reader
-  end
+ def document
+ end
 
-  def receiver
-  end
+ def down
+ end
 
-  def recorder
-  end
+ def engine_control
+ end
 
-  def sdr
-  end
+ def faq
+ end
 
-  def service
-  end
+ def feature_icons
+ end
 
-  def software
-  end
+ def generator
+ end
 
-  def system
-  end
+ def generator_control
+ end
 
-  def unit
-  end
+ def inserter
+ end
 
-  def video
-  end
+ def loader
+ end
+
+ def low
+ end
+
+ def mil
+ end
+
+ def modulator
+ end
+
+ def partner
+ end
+
+ def pcm
+ end
+
+ def power_control
+ end
+
+ def privacy
+ end
+
+ def reader
+ end
+
+ def receiver
+ end
+
+ def recorder
+ end
+
+ def sdr
+ end
+
+ def service
+ end
+
+ def software
+ end
+
+ def system
+ end
+
+ def unit
+ end
+
+ def video
+ end
+
+ private
+
+ def contact_params
+  params.require(:contact).permit!
+end
 
 end
+

@@ -13,6 +13,7 @@ Rails.application.routes.draw do
       get :client
       get :combiner
       get :contact
+      post :post_contact
       get :display
       get :document
       get :down
