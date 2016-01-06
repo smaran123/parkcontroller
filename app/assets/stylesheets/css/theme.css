@@ -10,7 +10,8 @@ html {
 
 body {
 	background-color: white;
-	color: #777777;
+	/* color: #777777; */
+	color:black;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 22px;
@@ -21,7 +22,8 @@ body {
 #header {
 	background: #F6F6F6;
 	background: -webkit-linear-gradient( #f6f6f6, white);
-	background: linear-gradient( #f6f6f6, white);
+	/* background: linear-gradient( #f6f6f6, white); */
+	  background:white;
 	clear: both;
 	border-top: 5px solid #EDEDED;
 	min-height: 100px;
@@ -150,7 +152,7 @@ h2.short{
 	margin-left: 3px;
 	margin-right: 3px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight:900;
 	padding: 10px 13px;
 }
 
@@ -331,6 +333,7 @@ h2.short{
 }
 .newsletter>p{
       width:60%;
+	  color:lightgray;
 
 }
 .contact-span{
@@ -1438,7 +1441,8 @@ aside ul.nav-list > li > a {
 
 /* #Footer */
 #footer {
-	background: #121214;
+	/* background: #121214; */
+	background: #330000;
 	border-top: 4px solid #1F1F1F;
 	font-size: 0.9em;
 	margin-top: 50px;
@@ -1516,9 +1520,11 @@ aside ul.nav-list > li > a {
 }
 
 #footer .footer-ribbon span {
-	color: #FFF;
-	font-size: 1.6em;
-	font-family: "Shadows Into Light", cursive;
+
+color: #FFF;
+font-size: 24px;
+font-family: "Shadows Into Light", cursive;
+font-family: gabriola;
 }
 
 #footer .newsletter form {
@@ -1602,6 +1608,7 @@ aside ul.nav-list > li > a {
 
 #footer .contact p {
 	margin-bottom: 10px;
+     color:lightgray;
 }
 
 #footer .logo {
@@ -1613,8 +1620,9 @@ aside ul.nav-list > li > a {
 }
 
 #footer .footer-copyright {
-	background: #0C0C0C;
-	border-top: 4px solid #111;
+	/* background: #0C0C0C; */
+	background-color:#330000;
+	border-top:1px solid #3C3A3A;
 	margin-top: 40px;
 	padding: 30px 0 10px;
 }
@@ -2279,11 +2287,13 @@ p.para-text>strong {
 font-size: 15px  !important;
 color: black !important;
 font-weight:700 !important;
+position:relative;
+left: -36px;
 
 }
 div.iso-box-shadow>img {
-     margin-top:84px;
-    margin-bottom:51px;
+   margin-top: 30px;
+    margin-bottom:30px;
 }
  span.tab-pad {
        padding:0px;
@@ -2322,10 +2332,10 @@ h1.tall, h2.tall, h3.tall, h4.tall, h5.tall, h6.tall {
 
 }
 p.lead {
-        margin-bottom: 20px;
-    font-size: 14px !important;
-    font-weight: 200;
-    line-height: 1.7;
+     margin-bottom: 20px;
+     font-size: 15px !important;
+    font-weight: 600;
+    line-height:1.7;
     color: black;
 }
 .thumb {
@@ -2347,11 +2357,17 @@ ul.history li h4 {
     left: 51px;
 }
 
+
+ul.ul-iso {
+	color: black !important;
+	font-weight: 600;
+	font-size: 15px;
+}
 ul.ul-iso li{
 margin-bottom:7px;
 }
 ul.company-logo {
-    text-align: center;
+   text-align: center;
 }
 ul.company-logo li {
     list-style: none;
@@ -2385,7 +2401,10 @@ button.button-modal {
     cursor:pointer;
     border:1px solid #9F9B9B;
 }
-
+.owl-carousel .owl-item {
+    float: left;
+    margin-left:30px !important;
+}
 
 
 

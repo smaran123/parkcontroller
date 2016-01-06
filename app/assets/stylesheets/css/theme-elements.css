@@ -185,6 +185,7 @@ p.featured {
 	color: black !important;
 	font-weight:600 !important; 
     cursor:pointer;	
+    text-align:justify;
 }
 
 p.short {
@@ -1099,7 +1100,7 @@ hr.short {
 }
 
 hr.tall {
-	margin: 44px 0 44px 0;
+margin: 0px 0px 0px 0px;
 }
 
 hr.taller {
@@ -2048,11 +2049,15 @@ ul.social-icons li.dribbble:hover {
 }
 
 ul.social-icons li.facebook {
-	background-position: 0 -120px;
+	/* background-position: 0 -120px; */
+	 background-position: 0 -150px;
+	
 }
 
 ul.social-icons li.facebook:hover {
-	background-position: 0 -150px;
+	/* background-position: 0 -150px; */
+	 background-position: 0 -120px; 
+	 
 }
 
 ul.social-icons li.flickr {
@@ -2104,11 +2109,13 @@ ul.social-icons li.lastfm:hover {
 }
 
 ul.social-icons li.linkedin {
-	background-position: 0 -540px;
+	/* background-position: 0 -540px; */
+	    background-position: 0 -570px;
 }
 
 ul.social-icons li.linkedin:hover {
-	background-position: 0 -570px;
+   background-position: 0 -540px;
+	/* background-position: 0 -570px; */
 }
 
 ul.social-icons li.myspace {
@@ -2184,11 +2191,14 @@ ul.social-icons li.tumblr:hover {
 }
 
 ul.social-icons li.twitter {
-	background-position: 0 -1140px;
+	/*  background-position: 0 -1140px; */
+	background-position: 0 -1170px;
+	
 }
 
 ul.social-icons li.twitter:hover {
-	background-position: 0 -1170px;
+  background-position: 0 -1140px;
+/* 	background-position: 0 -1170px; */
 }
 
 ul.social-icons li.vimeo {
